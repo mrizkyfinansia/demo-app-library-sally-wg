@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 context = applicationContext,
                 engineId = "my_engine_id",
                 channelId = "library.sally_wg",
-                initialRoute = "/home"
+                initialRoute = "/login"
             ).channelConfig()
 
             startActivity(
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                 context = applicationContext,
                 engineId = "my_engine_id",
                 channelId = "library.sally_wg",
-                initialRoute = "/home"
+                initialRoute = "/login"
             ).channelConfig()
         }
 
